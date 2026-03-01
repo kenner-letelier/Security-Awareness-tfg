@@ -38,10 +38,7 @@ El motor integrado con OpenAI genera dinámicamente el contenido del ataque. El 
 #### 4. Ejecución del Ataque y Recopilación (Tracking)
 Al lanzar la campaña, se envían los correos controlados. El sistema recopila interacciones reales: correos enviados, enlaces clicados y datos introducidos. Las páginas de aterrizaje replican servicios reales (ej. Netflix) para evaluar la capacidad de detección.
 *A la izquierda: Email malicioso recibido. A la derecha: Landing page falsa simulada.*
-
-| Correo Recibido | Landing Page Falsa (Netflix) |
-| :---: | :---: |
-| Media/Mail recibido.png | Media/phising.png |
+![alt text](<Media/Mail recibido.png>) ![alt text](Media/phising.png)
 
 #### 5. Monitorización en Tiempo Real
 Panel de control (Dashboard) que consolida las métricas de compromiso: Índice de Riesgo global, Tasa de Phishing (Clics), y Credenciales Comprometidas por departamento y usuario.
